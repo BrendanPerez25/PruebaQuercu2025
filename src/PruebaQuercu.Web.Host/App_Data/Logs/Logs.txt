@@ -1,0 +1,38 @@
+DEBUG 2025-07-20 13:00:51,358 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2025-07-20 13:00:55,804 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2025-07-20 13:00:55,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PruebaQuercu.Web.Host.Startup.PruebaQuercuWebHostModule, PruebaQuercu.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:55,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PruebaQuercu.PruebaQuercuWebCoreModule, PruebaQuercu.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:55,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PruebaQuercu.PruebaQuercuApplicationModule, PruebaQuercu.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:55,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PruebaQuercu.PruebaQuercuCoreModule, PruebaQuercu.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:55,816 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:55,816 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:55,816 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:55,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:55,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PruebaQuercu.EntityFrameworkCore.PruebaQuercuEntityFrameworkModule, PruebaQuercu.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:55,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:55,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:55,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:55,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:55,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:55,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:55,819 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2025-07-20 13:00:56,416 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-07-20 13:00:56,416 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-07-20 13:00:56,416 [1    ] o.Configuration.LanguageManagementConfig - Converted PruebaQuercu (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-07-20 13:00:56,416 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-07-20 13:00:57,884 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PruebaQuercu.EntityFrameworkCore.PruebaQuercuDbContext, PruebaQuercu.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-07-20 13:00:57,942 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2025-07-20 13:00:57,987 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2025-07-20 13:00:58,008 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2025-07-20 13:00:58,017 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PruebaQuercu
+DEBUG 2025-07-20 13:00:58,029 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2025-07-20 13:00:58,034 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2025-07-20 13:00:58,043 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[PruebaQuercu.MultiTenancy.Tenant, PruebaQuercu.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PruebaQuercu.Authorization.Users.User, PruebaQuercu.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2025-07-20 13:00:58,055 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2025-07-20 13:00:58,055 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Users.Dto.CreateUserDto
+DEBUG 2025-07-20 13:00:58,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Users.Dto.UserDto
+DEBUG 2025-07-20 13:00:58,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2025-07-20 13:00:58,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Sessions.Dto.UserLoginInfoDto
+DEBUG 2025-07-20 13:00:58,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Roles.Dto.PermissionDto
+DEBUG 2025-07-20 13:00:58,058 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2025-07-20 13:00:58,058 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.MultiTenancy.Dto.TenantDto
