@@ -3,12 +3,14 @@ using PruebaQuercu.Authorization.Roles;
 using PruebaQuercu.Authorization.Users;
 using PruebaQuercu.MultiTenancy;
 using Microsoft.EntityFrameworkCore;
+using PruebaQuercu.Property;
 
 namespace PruebaQuercu.EntityFrameworkCore;
 
 public class PruebaQuercuDbContext : AbpZeroDbContext<Tenant, Role, User, PruebaQuercuDbContext>
 {
     /* Define a DbSet for each entity of the application */
+    public DbSet<TaskProperty> Property { get; set; }
 
     public PruebaQuercuDbContext(DbContextOptions<PruebaQuercuDbContext> options)
         : base(options)
