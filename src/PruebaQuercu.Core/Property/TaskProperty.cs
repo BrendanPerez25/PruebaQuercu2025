@@ -12,8 +12,9 @@ using System.Threading.Tasks;
 
 namespace PruebaQuercu.Property
 {
+    //[Table("Property",Schema = "nombredeesquema")] esto para crear un nuevo esquema en la db
     [Table("Property")]
-    public class TaskProperty : Entity  // Esto ya incluye el campo 'Id'
+    public class TaskProperty : Entity  // Esto ya incluye el campo 'Id' se usa el long dependindo de la cantidad de registros
     {
         public const int sizeLength = 255;
 

@@ -1,0 +1,15 @@
+﻿@using PruebaQuercu.Web.Startup
+@using PruebaQuercu.Web.Models.TaskOwner
+@model TaskOwnerViewModel
+
+@{
+
+    ViewBag.Title = L("TaskOwner");
+    ViewBag.CurrentPageName = PageNames.TaskOwners;
+
+}
+
+@foreach (var owner in Model.TaskOwners)
+{
+    
+    <h4>@owner.Name</h4>}
