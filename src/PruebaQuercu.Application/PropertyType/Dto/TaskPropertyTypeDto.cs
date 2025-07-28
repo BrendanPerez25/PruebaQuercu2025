@@ -13,4 +13,5 @@ namespace PruebaQuercu.PropertyType.Dto
     {
         public string description { get; set; }
     }
+
 }

@@ -1,19 +1,24 @@
 ﻿using Abp.Application.Services;
-using Microsoft.AspNetCore.Builder;
-using PruebaQuercu.PropertyType.Dto;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using PruebaQuercu.PropertyType.Dto;
 
 namespace PruebaQuercu.PropertyType
 {
     public interface ITaskPropertyTypeAppService : IApplicationService
     {
-        //Task<TaskPropertyTypeDto> CreateAsync(CreateTaskPropertyTypeDto input);Se usa cuando desea devolver el objeto creado(cuando se necesita el id u otro dato)
-        //Task CreateAsync(CreateTaskPropertyTypeDto input); Se usa cuando no se desea devolver el objeto creado(cuando no se necesita el id u otro dato)
-        Task<TaskPropertyTypeDto> CreateAsync(CreateTaskPropertyTypeDto input); //LLAMADO AL METODO DE SU AppService
-        Task<List<TaskPropertyTypeDto>> GetAllAsync(); //LLAMADO AL METODO DE SU AppService
+        // Crea un nuevo TaskPropertyType y devuelve el DTO creado (con ID u otros datos generados)
+        Task<TaskPropertyTypeDto> CreateAsync(CreateTaskPropertyTypeDto input);
+
+        // Obtiene la lista completa de TaskPropertyType
+        Task<List<TaskPropertyTypeDto>> GetAllAsync();
+
+        // Obtiene un TaskPropertyType para editar según su ID
+        Task<EditTaskPropertyTypeDto> GetByIdAsync(int id);
+
+        // Actualiza un TaskPropertyType con los datos enviados
+        Task UpdateAsync(EditTaskPropertyTypeDto input);
+        Task DeleteAsync(int id);
+
     }
 }

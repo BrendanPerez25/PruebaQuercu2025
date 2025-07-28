@@ -14,4 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\PruebaQuercu.Core\PruebaQuercu.Core.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PropertyType\NewFolder\" />
+  </ItemGroup>
 </Project>

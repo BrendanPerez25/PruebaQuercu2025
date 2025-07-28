@@ -13,3 +13,4 @@ namespace PruebaQuercu.Web.Models.TaskOwner
         }
     }
 }
+// This code defines a view model for task owners in a web application, encapsulating a list of task owner data transfer objects (DTOs).

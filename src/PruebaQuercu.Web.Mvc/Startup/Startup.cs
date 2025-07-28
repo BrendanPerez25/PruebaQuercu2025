@@ -34,6 +34,9 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
         // MVC
+        services.AddControllersWithViews()
+        .AddRazorRuntimeCompilation();
+
         services.AddControllersWithViews(
                 options =>
                 {

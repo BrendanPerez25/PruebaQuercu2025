@@ -1,5 +1,4 @@
-﻿using Abp.AutoMapper;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -8,12 +7,15 @@ using System.Threading.Tasks;
 
 namespace PruebaQuercu.PropertyType.Dto
 {
-    [AutoMapTo(typeof(TaskPropertyType))]  // Este es clave para tu mapeo
-    public class CreateTaskPropertyTypeDto
+    public class EditTaskPropertyTypeDto
     {
+        public int Id { get; set; }
+
         [Required]
         [StringLength(255)]
         public string Description { get; set; }
     }
 
 }
+
+// Este DTO se usa para editar un TaskPropertyType existente
