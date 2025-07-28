@@ -47,6 +47,14 @@ public class PruebaQuercuNavigationProvider : NavigationProvider
             )
             .AddItem(
                 new MenuItemDefinition(
+                    PageNames.TaskProperty,
+                    L("Property"),
+                    url: "TaskProperty/Index",
+                    icon: "fas fa-info-circle"
+                )
+            )
+            .AddItem(
+                new MenuItemDefinition(
                     PageNames.Home,
                     L("HomePage"),
                     url: "",

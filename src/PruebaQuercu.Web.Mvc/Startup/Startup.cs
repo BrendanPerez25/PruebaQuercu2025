@@ -33,17 +33,15 @@ public class Startup
 
     public void ConfigureServices(IServiceCollection services)
     {
+        services.AddControllersWithViews().AddRazorRuntimeCompilation();
         // MVC
-        services.AddControllersWithViews()
-        .AddRazorRuntimeCompilation();
-
-        services.AddControllersWithViews(
-                options =>
-                {
-                    options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
-                    options.Filters.Add(new AbpAutoValidateAntiforgeryTokenAttribute());
-                }
-            );
+        //services.AddControllersWithViews(
+        //        options =>
+        //        {
+        //            options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
+        //            options.Filters.Add(new AbpAutoValidateAntiforgeryTokenAttribute());     PARA DESACTIVAR VER LOS CAMBIOS EN TIEMPO REAL
+        //        }
+        //    );
 
         IdentityRegistrar.Register(services);
         AuthConfigurer.Configure(services, _appConfiguration);

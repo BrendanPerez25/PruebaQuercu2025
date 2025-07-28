@@ -2,6 +2,8 @@
 using Abp.Modules;
 using Abp.Reflection.Extensions;
 using PruebaQuercu.Authorization;
+using PruebaQuercu.Owner.Dto;
+using PruebaQuercu.Property.Dto;
 
 namespace PruebaQuercu;
 
@@ -13,6 +15,22 @@ public class PruebaQuercuApplicationModule : AbpModule
     public override void PreInitialize()
     {
         Configuration.Authorization.Providers.Add<PruebaQuercuAuthorizationProvider>();
+
+        Configuration.Modules.AbpAutoMapper().Configurators.Add(mapper =>
+        {
+            mapper.AddProfile<TaskOwnerMappingProfile>();
+        });
+
+        Configuration.Modules.AbpAutoMapper().Configurators.Add(cfg =>
+        {
+            cfg.AddProfile<TaskPropertyMappingProfile>();
+        });
+
+        Configuration.Modules.AbpAutoMapper().Configurators.Add(cfg =>
+        {
+            cfg.AddProfile<PropertyMappingProfile>();
+        });
+
     }
 
     public override void Initialize()

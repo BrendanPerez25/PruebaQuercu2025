@@ -9,10 +9,12 @@ using System.Threading.Tasks;
 
 namespace PruebaQuercu.Property.Dto
 {
-    [AutoMapFrom(typeof(TaskOwner))]
+    [AutoMapFrom(typeof(TaskProperty))]
     public class CreateTaskPropertyDto 
     
     {
+
+
         [Required]
         public int PropertyTypeId { get; set; }
 

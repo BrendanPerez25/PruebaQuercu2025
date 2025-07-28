@@ -1,16 +1,15 @@
-﻿using PruebaQuercu.Owner.Dto;
-using System.Collections.Generic;
+﻿    using PruebaQuercu.Owner.Dto;
+    using System.Collections.Generic;
 
-namespace PruebaQuercu.Web.Models.TaskOwner
-{
-    public class TaskOwnerViewModel
+    namespace PruebaQuercu.Web.Models.TaskOwner
     {
-        public IReadOnlyList<TaskOwnerDto> TaskOwners { get; set; }
+        public class TaskOwnerViewModel
+        {
+            public IReadOnlyList<TaskOwnerDto> TaskOwners { get; set; }
 
-        public TaskOwnerViewModel(IReadOnlyList<TaskOwnerDto> owners) 
-        { 
-            TaskOwners = owners;
+            public TaskOwnerViewModel(IReadOnlyList<TaskOwnerDto> owners) 
+            { 
+                TaskOwners = owners;
+            }
         }
     }
-}
-// This code defines a view model for task owners in a web application, encapsulating a list of task owner data transfer objects (DTOs).

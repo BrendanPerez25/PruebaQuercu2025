@@ -12,6 +12,9 @@ namespace PruebaQuercu.Owner
     {
         Task<TaskOwnerDto> CreateAsync(CreateTaskOwnerDto input); // Crear
         Task<List<TaskOwnerDto>> GetAllAsync(); // Mostrar todos
+        Task DeleteAsync(int id); // Eliminar registro
+
+        Task<TaskOwnerDto> EditAsync(EditTaskOwnerDto input);
 
     }
 }

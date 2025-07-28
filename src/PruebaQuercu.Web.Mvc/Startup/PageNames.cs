@@ -10,4 +10,6 @@ public class PageNames
     public const string TaskOwners = "TaskOwners";
     public const string PropertyType = "PropertyType";
     public const string CreatePropertyType = "CreatePropertyType";
+    public const string TaskProperty = "TaskProperty";
+            
 }

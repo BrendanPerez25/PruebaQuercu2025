@@ -12,7 +12,14 @@ namespace PruebaQuercu.Property
     public interface ITaskPropertyAppService : IApplicationService
     {
         Task<TaskPropertyDto> CreateAsync(CreateTaskPropertyDto input);
-        Task<List<TaskProperty>> GetAllAsync();
+        Task<List<TaskPropertyDto>> GetAllAsync();
+        Task<TaskPropertyCreateDataDto> GetCreateDataAsync(); //OBTENER LA LISTAS CON LOS DATOS DE OWNERS Y DE PROPERTYTYPES
+
+        Task DeleteAsync(int id);
+
+        Task<EditTaskPropertyDto> GetForEditAsync(int id);
+
+        Task UpdateAsync(EditTaskPropertyDto input);
 
     }
 }

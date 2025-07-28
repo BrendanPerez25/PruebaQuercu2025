@@ -12,10 +12,10 @@ namespace PruebaQuercu.Property.Dto
     public class TaskPropertyDto : Entity<int> 
     {
         public int PropertyTypeId { get; set; }
-        public string PropertyTypeName { get; set; } // Para mostrar el nombre del tipo, si deseas
+        public string PropertyTypeName { get; set; } // Para mostrar el nombre del tipo
 
         public int OwnerId { get; set; }
-        public string OwnerName { get; set; } // Para mostrar el nombre del dueño, si deseas
+        public string OwnerName { get; set; } // Para mostrar el nombre del dueño
 
         public string Number { get; set; }
         public string Address { get; set; }

@@ -33,6 +33,6 @@ namespace PruebaQuercu.Owner
         [StringLength(sizeLength)]
         public string Address { get; set; }
 
-        public virtual ICollection<TaskProperty> Propertys { get; set; }
+        //public virtual ICollection<TaskProperty> Propertys { get; set; }
     }
 }

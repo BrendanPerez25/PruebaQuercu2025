@@ -1988,7 +1988,7 @@ namespace PruebaQuercu.Migrations
             modelBuilder.Entity("PruebaQuercu.Property.TaskProperty", b =>
                 {
                     b.HasOne("PruebaQuercu.Owner.TaskOwner", "Owner")
-                        .WithMany("Propertys")
+                        .WithMany()
                         .HasForeignKey("OwnerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -2073,11 +2073,6 @@ namespace PruebaQuercu.Migrations
                     b.Navigation("Settings");
 
                     b.Navigation("Tokens");
-                });
-
-            modelBuilder.Entity("PruebaQuercu.Owner.TaskOwner", b =>
-                {
-                    b.Navigation("Propertys");
                 });
 
             modelBuilder.Entity("PruebaQuercu.PropertyType.TaskPropertyType", b =>
