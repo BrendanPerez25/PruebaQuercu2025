@@ -1,9 +1,12 @@
 ﻿using Abp.Application.Services;
 using Abp.Domain.Repositories;
+using Abp.UI;
+using Castle.Core.Logging;
 using Microsoft.EntityFrameworkCore;
+using PruebaQuercu.Domain.Services;
+using PruebaQuercu.Owner;
 using PruebaQuercu.Property.Dto;
 using PruebaQuercu.PropertyType;
-using PruebaQuercu.Owner;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -15,22 +18,39 @@ namespace PruebaQuercu.Property
         private readonly IRepository<TaskProperty, int> _propertyRepository;
         private readonly IRepository<TaskPropertyType, int> _propertyTypeRepository;
         private readonly IRepository<TaskOwner, int> _ownerRepository;
+        private readonly PropertyDomainService _propertyDomainService;
+       // public ILogger logger { get; set; } //Inyectamos el logger pero no es necesario si se esta usando el ApplicationService ya que viene inyectado en él
 
-        public TaskPropertyAppService(
-            IRepository<TaskProperty, int> propertyRepository,
-            IRepository<TaskPropertyType, int> propertyTypeRepository,
-            IRepository<TaskOwner, int> ownerRepository)
+        public TaskPropertyAppService(IRepository<TaskProperty, int> propertyRepository, IRepository<TaskPropertyType, int> propertyTypeRepository,IRepository<TaskOwner, int> ownerRepository, PropertyDomainService domainservice)
         {
             _propertyRepository = propertyRepository;
             _propertyTypeRepository = propertyTypeRepository;
-            _ownerRepository = ownerRepository;
+            _ownerRepository = ownerRepository; 
+            _propertyDomainService = domainservice;
+
+         //   logger = NullLogger.Instance; // inicializamos la instancia en el contructor
         }
+
 
         //CREAR REGISTRO EN LA DB
         public async Task<TaskPropertyDto> CreateAsync(CreateTaskPropertyDto input)
         {
+            //CARGAMOS EL METODO DEL DOMAIN EN UN VARIABLE PARA COMPROBAR Y LANZAR EL ERROR CON SUS VARIABLES DE ID PARA COMPROBAR
+            // INT PARA SELECCIONAR EL VALOR MAXIMO DE PROPIEDADES QUE TIENE UN OWNER
+            var checkOwner = await _propertyDomainService.CheckOwnerPropertyLimitAsync(input.OwnerId,3);
+
+            if (checkOwner)
+            {
+                throw new UserFriendlyException("Este dueño ya tiene el número máximo de propiedades permitidas (3).");
+            }
+           
             var property = ObjectMapper.Map<TaskProperty>(input);
+
+            Logger.Warn("Creating a new task with description: " + input);
+
             var insert = await _propertyRepository.InsertAsync(property);
+
+           
 
             return ObjectMapper.Map<TaskPropertyDto>(insert);
         }

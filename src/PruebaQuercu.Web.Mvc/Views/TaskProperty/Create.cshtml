@@ -94,8 +94,15 @@
                             location.href = '/TaskProperty/Index';
                         })
                         .fail(function(error) {
-                            abp.notify.error('Error al crear: ' + error.message);
-                        });
+                        var userFriendlyMessage = error.responseJSON?.error?.message;
+
+                        if (userFriendlyMessage) {
+                            abp.notify.error(userFriendlyMessage, "Error");
+                        } else {
+                            abp.notify.error("Ocurrió un error inesperado.", "Error");
+                        }
+        });
+
                 });
             });
         })(jQuery);

@@ -29,17 +29,17 @@ namespace PruebaQuercu.Web.Controllers
             ViewBag.PropertyTypes = new SelectList(createData.PropertyTypes, "Id", "Description");
             ViewBag.Owners = new SelectList(createData.Owners, "Id", "Name");
 
+            //Logger.Info("Creating a new task with description: ");
+
             return View(properties);
         }
 
         public async Task<ActionResult> Create()
         {
             var createData = await _taskPropertyAppService.GetCreateDataAsync();
-
-            ViewBag.PropertyTypes = new SelectList(createData.PropertyTypes, "Id", "Description");
             //el ViewBag permite pasar datos desde el controlador a la vista de forma rápida y sencilla
             //SelectList es una clase de ASP.NET MVC que crea una lista de opciones para controles <select> (combos o dropdown lists).
-
+            ViewBag.PropertyTypes = new SelectList(createData.PropertyTypes, "Id", "Description");
             ViewBag.Owners = new SelectList(createData.Owners, "Id", "Name");
 
             return View(new CreateTaskPropertyDto());
