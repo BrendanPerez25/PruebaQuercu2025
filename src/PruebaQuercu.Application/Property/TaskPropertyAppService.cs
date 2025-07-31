@@ -3,6 +3,7 @@ using Abp.Domain.Repositories;
 using Abp.UI;
 using Castle.Core.Logging;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using PruebaQuercu.Domain.Services;
 using PruebaQuercu.Owner;
 using PruebaQuercu.Property.Dto;
@@ -10,6 +11,7 @@ using PruebaQuercu.PropertyType;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ILogger = Castle.Core.Logging.ILogger; //1: Import Logging namespace
 
 namespace PruebaQuercu.Property
 {
@@ -19,16 +21,16 @@ namespace PruebaQuercu.Property
         private readonly IRepository<TaskPropertyType, int> _propertyTypeRepository;
         private readonly IRepository<TaskOwner, int> _ownerRepository;
         private readonly PropertyDomainService _propertyDomainService;
-       // public ILogger logger { get; set; } //Inyectamos el logger pero no es necesario si se esta usando el ApplicationService ya que viene inyectado en él
+      
+        public ILogger logger { get; set; } //Inyectamos el logger pero no es necesario si se esta usando el ApplicationService ya que viene inyectado en él
 
-        public TaskPropertyAppService(IRepository<TaskProperty, int> propertyRepository, IRepository<TaskPropertyType, int> propertyTypeRepository,IRepository<TaskOwner, int> ownerRepository, PropertyDomainService domainservice)
+        public TaskPropertyAppService(IRepository<TaskProperty, int> propertyRepository, IRepository<TaskPropertyType, int> propertyTypeRepository,IRepository<TaskOwner, int> ownerRepository, PropertyDomainService domainservice) // ILogger<TaskPropertyAppService> logger
         {
             _propertyRepository = propertyRepository;
             _propertyTypeRepository = propertyTypeRepository;
             _ownerRepository = ownerRepository; 
             _propertyDomainService = domainservice;
-
-         //   logger = NullLogger.Instance; // inicializamos la instancia en el contructor
+            logger = NullLogger.Instance; // inicializamos la instancia en el contructor
         }
 
 
@@ -41,12 +43,12 @@ namespace PruebaQuercu.Property
 
             if (checkOwner)
             {
+               
                 throw new UserFriendlyException("Este dueño ya tiene el número máximo de propiedades permitidas (3).");
             }
-           
             var property = ObjectMapper.Map<TaskProperty>(input);
 
-            Logger.Warn("Creating a new task with description: " + input);
+          
 
             var insert = await _propertyRepository.InsertAsync(property);
 
@@ -58,6 +60,10 @@ namespace PruebaQuercu.Property
         //OBTENER TODOS LOS REGISTROS DE PROPIEDADES CON NOMBRE DE TIPO Y PROPIETARIO
         public async Task<List<TaskPropertyDto>> GetAllAsync()
         {
+            logger.Info("Esto es un mensaje de prueba para verificar el logger."); //LA BOLITA AL LADO IZQUIERDO ES UN BreakPoint-Debuger
+            logger.Error("Esto es un mensaje de prueba para verificar errores en logger.");
+            logger.Error("Esto es un mensaje de prueba para verificar errores en logger.");
+
             var properties = await _propertyRepository
                 .GetAllIncluding(p => p.PropertyType, p => p.Owner)
                 .ToListAsync();

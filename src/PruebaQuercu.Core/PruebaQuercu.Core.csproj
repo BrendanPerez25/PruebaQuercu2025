@@ -18,5 +18,9 @@
     <PackageReference Include="Abp.AutoMapper" Version="10.2.0" />
     <PackageReference Include="Abp.ZeroCore.EntityFrameworkCore" Version="10.2.0" />
     <PackageReference Include="Castle.Windsor.MsDependencyInjection" Version="4.1.0" />
+    <PackageReference Include="log4net" Version="3.1.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="9.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
   </ItemGroup>
 </Project>
