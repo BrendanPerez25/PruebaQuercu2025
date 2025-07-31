@@ -18,6 +18,9 @@
     <Content Include="eslint.config.mjs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="C:\Users\brend\Downloads\Logs.txt" Link="Logs.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="Dockerfile">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -34,6 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
+    <PackageReference Include="log4net" Version="3.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="9.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.5">
       <PrivateAssets>all</PrivateAssets>
@@ -43,5 +47,11 @@
     <PackageReference Include="Abp.HangFire" Version="10.2.0" />
     <PackageReference Include="Abp.RedisCache" Version="10.2.0" />
     <PackageReference Include="Abp.Castle.Log4Net" Version="10.2.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="9.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\Logs\" />
   </ItemGroup>
 </Project>
