@@ -63,6 +63,7 @@ namespace PruebaQuercu.Property
             logger.Info("Esto es un mensaje de prueba para verificar el logger."); //LA BOLITA AL LADO IZQUIERDO ES UN BreakPoint-Debuger
             logger.Error("Esto es un mensaje de prueba para verificar errores en logger.");
             logger.Error("Esto es un mensaje de prueba para verificar errores en logger.");
+            logger.Error("Esto es un mensaje de prueba para verificar errores en logger.");
 
             var properties = await _propertyRepository
                 .GetAllIncluding(p => p.PropertyType, p => p.Owner)
