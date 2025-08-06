@@ -7,6 +7,66 @@
             ViewBag.CurrentPageName = PageNames.TaskProperty; // Agrega esto en tu PageNames si no existe
         }
 
+       <link href="https://kendo.cdn.telerik.com/themes/11.0.2/default/default-main.css" rel="stylesheet" />
+
+@section Scripts {
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2025.2.702/js/kendo.all.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        $('#editPropertyModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+
+            $('#editId').val(button.data('id'));
+            $('#editNumber').val(button.data('number'));
+            $('#editAddress').val(button.data('address'));
+            $('#editArea').val(button.data('area'));
+            $('#editConstructionArea').val(button.data('construction'));
+            $('#editPropertyTypeId').val(button.data('propertytype'));
+            $('#editOwnerId').val(button.data('owner'));
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+          $("#kendoButton").kendoButton({
+            click: function() {
+              alert("¡Botón Kendo UI funcionando!");
+            }
+          });
+        });
+    </script>
+
+    <script>
+        var viewModel = kendo.observable({
+            isVisible: true,
+            properties: new kendo.data.DataSource({
+                schema: {
+                    model: {
+                        id: "Id", // Ajusta este campo si tienes un ID
+                        fields: { // esto sirve para que los campos sean unicamente del tipo de dato especificado ene el {type: "tipodedato"}
+                            Number: { type: "string" },
+                            Address: { type: "string" },
+                            Area: { type: "number" },
+                            ConstructionArea: { type: "number" },
+                            PropertyTypeName: { type: "string" },
+                            OwnerName: { type: "string" }
+                        }
+                    }
+                },
+                batch: true,
+                data: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.Properties)) //cambia los datos del dto a tipo json 
+            })
+        });
+
+        kendo.bind($("#example"), viewModel);
+    </script>
+
+}
+
         <section class="content-header">
             <div class="container-fluid">
                 <div class="row">
@@ -42,7 +102,36 @@
 
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <table class="table table-bordered">
+
+                            <div id="example">
+
+                                <h4>Pruebas TaskProperty</h4>
+
+                                <div data-role="grid"
+                                     data-editable="true"
+                                     data-toolbar="['create', 'save']"
+                                     data-columns="[
+                                     { 'field': 'Number', 'title': 'Número' },
+                                     { 'field': 'Address', 'title': 'Dirección' },
+                                     { 'field': 'Area', 'title': 'Área' },
+                                     { 'field': 'ConstructionArea', 'title': 'Área Construcción' },
+                                     { 'field': 'PropertyTypeName', 'title': 'Tipo de Propiedad' },
+                                     { 'field': 'OwnerName', 'title': 'Propietario' }
+                                      ]"
+                                     data-bind="source: properties,
+                                        visible: isVisible,
+                                        events: { save: onSave }"
+                                     style="height: 400px;">
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                                    @* <table class="table table-bordered">
                                         <thead class="thead-light">
                                             <tr>
                                                 <th>Número</th>
@@ -91,7 +180,7 @@
                                                 </tr>
                                             }
                                         </tbody>
-                                    </table>
+                                    </table> *@
                                 </div>
                             </div>
                         </div>
@@ -99,7 +188,11 @@
                 </div>
             </div>
 
-   
+
+    <button id="kendoButton">Click me</button>
+
+
+
 
         </section>
 
@@ -173,25 +266,10 @@
 
     @*CIERRE MODAL*@
 
-    @section Scripts {
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-        <script>
-            $('#editPropertyModal').on('show.bs.modal', function (event) {
-                var button = $(event.relatedTarget);
 
-                $('#editId').val(button.data('id'));
-                $('#editNumber').val(button.data('number'));
-                $('#editAddress').val(button.data('address'));
-                $('#editArea').val(button.data('area'));
-                $('#editConstructionArea').val(button.data('construction'));
-                $('#editPropertyTypeId').val(button.data('propertytype'));
-                $('#editOwnerId').val(button.data('owner'));
-            });
-        </script>
-    }
+
+
 
 
  
