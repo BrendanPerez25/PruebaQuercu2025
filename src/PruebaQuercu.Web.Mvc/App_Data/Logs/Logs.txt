@@ -1,0 +1,957 @@
+DEBUG 2025-08-07 11:45:47,528 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2025-08-07 11:45:47,743 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2025-08-07 11:45:47,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PruebaQuercu.Web.Startup.PruebaQuercuWebMvcModule, PruebaQuercu.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:47,801 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PruebaQuercu.PruebaQuercuWebCoreModule, PruebaQuercu.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:47,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PruebaQuercu.PruebaQuercuApplicationModule, PruebaQuercu.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:47,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PruebaQuercu.PruebaQuercuCoreModule, PruebaQuercu.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:47,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:47,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:47,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:47,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:47,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: PruebaQuercu.EntityFrameworkCore.PruebaQuercuEntityFrameworkModule, PruebaQuercu.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:47,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:47,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:47,816 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:47,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:47,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:47,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=10.2.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:47,824 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2025-08-07 11:45:48,083 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-08-07 11:45:48,083 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-08-07 11:45:48,084 [1    ] o.Configuration.LanguageManagementConfig - Converted PruebaQuercu (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-08-07 11:45:48,084 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2025-08-07 11:45:49,596 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: PruebaQuercu.EntityFrameworkCore.PruebaQuercuDbContext, PruebaQuercu.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2025-08-07 11:45:50,358 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2025-08-07 11:45:50,578 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2025-08-07 11:45:50,685 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2025-08-07 11:45:50,732 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PruebaQuercu
+DEBUG 2025-08-07 11:45:50,817 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2025-08-07 11:45:50,845 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2025-08-07 11:45:50,875 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[PruebaQuercu.MultiTenancy.Tenant, PruebaQuercu.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[PruebaQuercu.Authorization.Users.User, PruebaQuercu.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2025-08-07 11:45:50,956 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 19 classes define auto mapping attributes
+DEBUG 2025-08-07 11:45:50,957 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Users.Dto.CreateUserDto
+DEBUG 2025-08-07 11:45:50,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Users.Dto.UserDto
+DEBUG 2025-08-07 11:45:50,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2025-08-07 11:45:50,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Sessions.Dto.UserLoginInfoDto
+DEBUG 2025-08-07 11:45:50,974 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Roles.Dto.PermissionDto
+DEBUG 2025-08-07 11:45:50,974 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Property.Dto.CreateTaskPropertyDto
+DEBUG 2025-08-07 11:45:50,974 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Property.Dto.EditTaskPropertyDto
+DEBUG 2025-08-07 11:45:50,975 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Property.Dto.TaskOwnerComboDto
+DEBUG 2025-08-07 11:45:50,975 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Property.Dto.TaskPropertyDto
+DEBUG 2025-08-07 11:45:50,975 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Property.Dto.TaskPropertyTypeComboDto
+DEBUG 2025-08-07 11:45:50,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.PropertyType.Dto.CreateTaskPropertyTypeDto
+DEBUG 2025-08-07 11:45:50,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.PropertyType.Dto.TaskPropertyTypeDto
+DEBUG 2025-08-07 11:45:50,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Owner.Dto.CreateTaskOwnerDto
+DEBUG 2025-08-07 11:45:50,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Owner.Dto.EditTaskOwnerDto
+DEBUG 2025-08-07 11:45:50,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Owner.Dto.TaskOwnerDto
+DEBUG 2025-08-07 11:45:50,978 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2025-08-07 11:45:50,979 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.MultiTenancy.Dto.TenantDto
+DEBUG 2025-08-07 11:45:50,979 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2025-08-07 11:45:50,979 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - PruebaQuercu.Web.Models.Roles.EditRoleModalViewModel
+WARN  2025-08-07 11:45:54,812 [1    ] oft.EntityFrameworkCore.Model.Validation - No store type was specified for the decimal property 'Area' on entity type 'TaskProperty'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+WARN  2025-08-07 11:45:54,820 [1    ] oft.EntityFrameworkCore.Model.Validation - No store type was specified for the decimal property 'ConstructionArea' on entity type 'TaskProperty'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+INFO  2025-08-07 11:46:00,175 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+INFO  2025-08-07 11:46:02,257 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/ - - -
+INFO  2025-08-07 11:46:02,478 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2025-08-07 11:46:02,488 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2025-08-07 11:46:02,500 [1    ] Microsoft.Hosting.Lifetime               - Content root path: C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc
+INFO  2025-08-07 11:46:03,320 [13   ] uthorization.DefaultAuthorizationService - Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+INFO  2025-08-07 11:46:03,342 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2025-08-07 11:46:03,495 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/Account/Login?ReturnUrl=%2F - - -
+INFO  2025-08-07 11:46:03,495 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/ - 302 - - 1198.6235ms
+INFO  2025-08-07 11:46:03,574 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.AccountController.Login (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:46:03,897 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller PruebaQuercu.Web.Controllers.AccountController (PruebaQuercu.Web.Mvc).
+WARN  2025-08-07 11:46:07,004 [13   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 11:46:07,389 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2025-08-07 11:46:08,761 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 1410.1788ms.
+INFO  2025-08-07 11:46:08,770 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.AccountController.Login (PruebaQuercu.Web.Mvc) in 4866.7936ms
+INFO  2025-08-07 11:46:08,777 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.AccountController.Login (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:46:08,803 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/Account/Login?ReturnUrl=%2F - 200 - text/html;+charset=utf-8 5347.2184ms
+INFO  2025-08-07 11:46:08,962 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/account-layout.min.css?v=kh16B0ljGuHnjM8Bo7_ErGzEpZD3jym1QicTlxlxG-Y - - -
+INFO  2025-08-07 11:46:08,967 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/account-layout.min.js?v=dx8yIeNJnKFJ0T68wxsm4VIUQmaJKgaReRUhXsUUsEk - - -
+INFO  2025-08-07 11:46:08,979 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 11:46:08,973 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/view-resources/Views/Account/Login.js?v=mbhSZ86C5pmN44XAlaYyJaw0nfqN5-ODCoXqV3UJxIs - - -
+INFO  2025-08-07 11:46:09,030 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 11:46:09,117 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:46:09,127 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 11:46:09,165 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:46:09,208 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 11:46:09,276 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/view-resources/Views/Shared/Components/TenantChange/Default.js?v=638901639686985889 - - -
+INFO  2025-08-07 11:46:09,294 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 159.3381ms
+INFO  2025-08-07 11:46:09,398 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2025-08-07 11:46:09,417 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/view-resources/Views/Account/Login.js?v=mbhSZ86C5pmN44XAlaYyJaw0nfqN5-ODCoXqV3UJxIs - 200 410 text/javascript 473.2242ms
+INFO  2025-08-07 11:46:09,488 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 11:46:09,525 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 11:46:09,660 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2025-08-07 11:46:09,671 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/view-resources/Views/Shared/Components/TenantChange/Default.js?v=638901639686985889 - 200 370 text/javascript 422.0601ms
+INFO  2025-08-07 11:46:09,710 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/_Bundles/account-layout.min.js'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\view-resources\Views\_Bundles\account-layout.min.js'
+INFO  2025-08-07 11:46:09,723 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/_Bundles/account-layout.min.css'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\view-resources\Views\_Bundles\account-layout.min.css'
+INFO  2025-08-07 11:46:09,823 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/account-layout.min.css?v=kh16B0ljGuHnjM8Bo7_ErGzEpZD3jym1QicTlxlxG-Y - 200 1668624 text/css 859.8695ms
+INFO  2025-08-07 11:46:09,829 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/account-layout.min.js?v=dx8yIeNJnKFJ0T68wxsm4VIUQmaJKgaReRUhXsUUsEk - 200 1433674 text/javascript 896.6125ms
+INFO  2025-08-07 11:46:09,863 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/dist/img/famfamfam-flags.png - - -
+INFO  2025-08-07 11:46:09,913 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/dist/img/famfamfam-flags.png'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\dist\img\famfamfam-flags.png'
+INFO  2025-08-07 11:46:09,939 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/dist/img/famfamfam-flags.png - 200 78508 image/png 78.0904ms
+INFO  2025-08-07 11:46:09,944 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/dist/fonts/fa-solid-900.woff2 - - -
+INFO  2025-08-07 11:46:09,959 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/dist/fonts/fa-solid-900.woff2'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\dist\fonts\fa-solid-900.woff2'
+INFO  2025-08-07 11:46:09,978 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/dist/fonts/fa-solid-900.woff2 - 200 78196 font/woff2 33.4578ms
+INFO  2025-08-07 11:46:10,012 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 834.8532ms
+INFO  2025-08-07 11:46:10,061 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2025-08-07 11:46:10,068 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 537.8712ms
+INFO  2025-08-07 11:46:10,073 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:46:10,111 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 1089.4832ms
+WARN  2025-08-07 11:46:10,133 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:10,189 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:10,195 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:10,196 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:46:10,279 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2025-08-07 11:46:10,289 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 793.997ms
+INFO  2025-08-07 11:46:10,295 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:46:10,303 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 23441 application/x-javascript;+charset=utf-8 1329.4586ms
+INFO  2025-08-07 11:46:17,692 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/Account/Login - application/x-www-form-urlencoded 256
+INFO  2025-08-07 11:46:17,703 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.AccountController.Login (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:46:17,720 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(PruebaQuercu.Web.Models.Account.LoginViewModel, System.String, System.String) on controller PruebaQuercu.Web.Controllers.AccountController (PruebaQuercu.Web.Mvc).
+WARN  2025-08-07 11:46:18,895 [30   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 11:46:18,942 [30   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+WARN  2025-08-07 11:46:18,965 [30   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 11:46:18,984 [30   ] rastructure.SystemTextJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2025-08-07 11:46:19,002 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.AccountController.Login (PruebaQuercu.Web.Mvc) in 1277.187ms
+INFO  2025-08-07 11:46:19,006 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.AccountController.Login (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:46:19,012 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/Account/Login - 200 - application/json;+charset=utf-8 1321.7027ms
+INFO  2025-08-07 11:46:19,038 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/ - - -
+INFO  2025-08-07 11:46:19,085 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.HomeController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:46:19,093 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller PruebaQuercu.Web.Controllers.HomeController (PruebaQuercu.Web.Mvc).
+WARN  2025-08-07 11:46:19,123 [30   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 11:46:19,151 [29   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2025-08-07 11:46:19,511 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:19,512 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:19,512 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:19,512 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:46:20,397 [28   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1254.1979ms.
+INFO  2025-08-07 11:46:20,408 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.HomeController.Index (PruebaQuercu.Web.Mvc) in 1307.9908ms
+INFO  2025-08-07 11:46:20,414 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.HomeController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:46:20,445 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/ - 200 - text/html;+charset=utf-8 1383.4231ms
+INFO  2025-08-07 11:46:20,464 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/shared-layout.min.css?v=2JgH3l8w67_GazpOLzhgPLwDTROeYI-Dm8MfkKH0Vw0 - - -
+INFO  2025-08-07 11:46:20,515 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/img/avatar.png - - -
+INFO  2025-08-07 11:46:20,523 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/img/logo.png - - -
+INFO  2025-08-07 11:46:20,562 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/avatar.png'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\img\avatar.png'
+INFO  2025-08-07 11:46:20,594 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/shared-layout.min.js?v=Y5Hge9uOppMA8bR84doPJ7Oz9PDLLb61_H1Tn-sDAtU - - -
+INFO  2025-08-07 11:46:20,600 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/logo.png'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\img\logo.png'
+INFO  2025-08-07 11:46:20,605 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/img/avatar.png - 200 7587 image/png 135.9705ms
+INFO  2025-08-07 11:46:20,616 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/img/logo.png - 200 4327 image/png 136.1846ms
+INFO  2025-08-07 11:46:20,646 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 11:46:20,653 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 11:46:20,658 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 11:46:20,695 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/home-index.min.js?v=W1pVI3cgZT_G5nvQPqaLU-Zndzb3L9GAhP8FM7W-DaA - - -
+INFO  2025-08-07 11:46:20,730 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 11:46:20,766 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 115.8263ms
+INFO  2025-08-07 11:46:20,806 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:46:20,841 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 11:46:20,855 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/_Bundles/home-index.min.js'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\view-resources\Views\_Bundles\home-index.min.js'
+INFO  2025-08-07 11:46:20,863 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:46:20,911 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 11:46:20,937 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/home-index.min.js?v=W1pVI3cgZT_G5nvQPqaLU-Zndzb3L9GAhP8FM7W-DaA - 200 407146 text/javascript 298.8082ms
+INFO  2025-08-07 11:46:20,950 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2025-08-07 11:46:20,956 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 324.5744ms
+INFO  2025-08-07 11:46:20,966 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 115.2177ms
+INFO  2025-08-07 11:46:20,991 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:46:21,016 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 465.8707ms
+WARN  2025-08-07 11:46:21,034 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:21,034 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:21,035 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:21,035 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:46:21,122 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/_Bundles/shared-layout.min.js'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\view-resources\Views\_Bundles\shared-layout.min.js'
+INFO  2025-08-07 11:46:21,192 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/_Bundles/shared-layout.min.css'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\view-resources\Views\_Bundles\shared-layout.min.css'
+INFO  2025-08-07 11:46:21,209 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/shared-layout.min.js?v=Y5Hge9uOppMA8bR84doPJ7Oz9PDLLb61_H1Tn-sDAtU - 200 1801982 text/javascript 641.5521ms
+INFO  2025-08-07 11:46:21,243 [28   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2025-08-07 11:46:21,249 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/shared-layout.min.css?v=2JgH3l8w67_GazpOLzhgPLwDTROeYI-Dm8MfkKH0Vw0 - 200 1698125 text/css 795.0621ms
+INFO  2025-08-07 11:46:21,254 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 311.8448ms
+INFO  2025-08-07 11:46:21,262 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:46:21,267 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 24826 application/x-javascript;+charset=utf-8 735.9627ms
+INFO  2025-08-07 11:46:21,352 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - - 0
+INFO  2025-08-07 11:46:21,363 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:46:21,384 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:46:21,392 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - 200 316 application/json 39.4729ms
+INFO  2025-08-07 11:46:21,421 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/signalr?id=td6s1lMH8IoBVbOnfBV7-g - - -
+INFO  2025-08-07 11:46:21,434 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2025-08-07 11:46:21,606 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"rjK4rITKqgCpmUmqWNibIA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2025-08-07T11:46:21.5414229-06:00","Properties":{}}
+DEBUG 2025-08-07 11:46:21,711 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: rjK4rITKqgCpmUmqWNibIA
+INFO  2025-08-07 11:46:22,854 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/TaskProperty/Index - - -
+INFO  2025-08-07 11:46:22,874 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:46:22,893 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "TaskProperty", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller PruebaQuercu.Web.Controllers.TaskPropertyController (PruebaQuercu.Web.Mvc).
+INFO  2025-08-07 11:46:22,915 [30   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar el logger.
+ERROR 2025-08-07 11:46:22,916 [30   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:46:22,916 [30   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:46:22,916 [30   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+WARN  2025-08-07 11:46:23,277 [30   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 11:46:23,298 [29   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2025-08-07 11:46:23,316 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskProperty' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:23,322 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'Properties' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:23,394 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:23,394 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:23,394 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:23,395 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:46:23,451 [30   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 158.5017ms.
+INFO  2025-08-07 11:46:23,459 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc) in 559.0375ms
+INFO  2025-08-07 11:46:23,465 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:46:23,472 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/TaskProperty/Index - 200 - text/html;+charset=utf-8 619.0131ms
+DEBUG 2025-08-07 11:46:23,495 [30   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: rjK4rITKqgCpmUmqWNibIA
+INFO  2025-08-07 11:46:23,523 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2025-08-07 11:46:23,530 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/signalr?id=td6s1lMH8IoBVbOnfBV7-g - 101 - - 2108.7337ms
+INFO  2025-08-07 11:46:23,591 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 11:46:23,618 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 11:46:23,623 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 11:46:23,654 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 6.0277ms
+INFO  2025-08-07 11:46:23,660 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 11:46:23,685 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - - 0
+INFO  2025-08-07 11:46:23,783 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:46:23,818 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:46:23,857 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:46:23,865 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - 200 316 application/json 203.8598ms
+INFO  2025-08-07 11:46:23,875 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 11:46:23,919 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:46:23,958 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 263.9610ms
+INFO  2025-08-07 11:46:23,969 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2025-08-07 11:46:23,987 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/signalr?id=2_ufGK1BVmqJnT7untP_wg - - -
+INFO  2025-08-07 11:46:24,022 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 115.3632ms
+INFO  2025-08-07 11:46:24,026 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 11:46:24,031 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:46:24,056 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 475.3299ms
+INFO  2025-08-07 11:46:24,063 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2025-08-07 11:46:24,071 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"k1Q_VVO2GewsMQgTNseteQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2025-08-07T11:46:24.0713786-06:00","Properties":{}}
+WARN  2025-08-07 11:46:24,073 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:24,073 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:46:24,073 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+DEBUG 2025-08-07 11:46:24,073 [5    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: k1Q_VVO2GewsMQgTNseteQ
+WARN  2025-08-07 11:46:24,074 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:46:24,095 [30   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2025-08-07 11:46:24,103 [30   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 65.6811ms
+INFO  2025-08-07 11:46:24,110 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:46:24,115 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 24826 application/x-javascript;+charset=utf-8 553.7129ms
+INFO  2025-08-07 11:54:17,642 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/TaskPropertyType/Create - - -
+INFO  2025-08-07 11:54:17,675 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyTypeController.Create (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:54:17,680 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Create", controller = "TaskPropertyType", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create() on controller PruebaQuercu.Web.Controllers.TaskPropertyTypeController (PruebaQuercu.Web.Mvc).
+WARN  2025-08-07 11:54:17,702 [13   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 11:54:17,731 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Create.
+WARN  2025-08-07 11:54:17,745 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskPropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:17,758 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Type property' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:17,758 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Description' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:17,762 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Guardar' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:17,788 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:17,788 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:17,788 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:17,788 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:54:17,798 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Create executed in 72.2025ms.
+INFO  2025-08-07 11:54:17,800 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.TaskPropertyTypeController.Create (PruebaQuercu.Web.Mvc) in 117.5748ms
+INFO  2025-08-07 11:54:17,802 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyTypeController.Create (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:54:17,806 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/TaskPropertyType/Create - 200 - text/html;+charset=utf-8 164.6940ms
+DEBUG 2025-08-07 11:54:17,811 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: k1Q_VVO2GewsMQgTNseteQ
+INFO  2025-08-07 11:54:17,875 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2025-08-07 11:54:17,933 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 11:54:17,937 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/signalr?id=2_ufGK1BVmqJnT7untP_wg - 101 - - 473942.9795ms
+INFO  2025-08-07 11:54:17,968 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 11:54:17,990 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 11:54:18,024 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 11:54:18,058 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:54:18,083 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - - 0
+INFO  2025-08-07 11:54:18,119 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 117.9802ms
+INFO  2025-08-07 11:54:18,122 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 11:54:18,180 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:54:18,183 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 11:54:18,214 [3    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:54:18,239 [3    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:54:18,263 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - 200 316 application/json 247.3448ms
+INFO  2025-08-07 11:54:18,266 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2025-08-07 11:54:18,269 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 84.1534ms
+INFO  2025-08-07 11:54:18,272 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:54:18,302 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 397.4668ms
+INFO  2025-08-07 11:54:18,335 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/signalr?id=vWfneiba4QszLhjw1B3q-g - - -
+INFO  2025-08-07 11:54:18,362 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 336.2451ms
+WARN  2025-08-07 11:54:18,363 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:18,363 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:18,363 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:18,363 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:54:18,388 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2025-08-07 11:54:18,396 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2025-08-07 11:54:18,435 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 274.0109ms
+INFO  2025-08-07 11:54:18,458 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:54:18,484 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 24826 application/x-javascript;+charset=utf-8 555.3136ms
+DEBUG 2025-08-07 11:54:18,485 [23   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"Nm-iMe3gS6hqKP82lMr0ww","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2025-08-07T11:54:18.43562-06:00","Properties":{}}
+DEBUG 2025-08-07 11:54:18,486 [23   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: Nm-iMe3gS6hqKP82lMr0ww
+INFO  2025-08-07 11:54:19,440 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/TaskPropertyType/Create - - -
+INFO  2025-08-07 11:54:19,454 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyTypeController.Create (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:54:19,460 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Create", controller = "TaskPropertyType", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create() on controller PruebaQuercu.Web.Controllers.TaskPropertyTypeController (PruebaQuercu.Web.Mvc).
+WARN  2025-08-07 11:54:19,479 [23   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 11:54:19,495 [3    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Create.
+WARN  2025-08-07 11:54:19,497 [3    ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskPropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:19,498 [3    ] naries.DictionaryBasedLocalizationSource - Can not find 'Type property' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:19,498 [3    ] naries.DictionaryBasedLocalizationSource - Can not find 'Description' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:19,499 [3    ] naries.DictionaryBasedLocalizationSource - Can not find 'Guardar' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:19,526 [3    ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:19,526 [3    ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:19,526 [3    ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:19,526 [3    ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:54:19,540 [3    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Create executed in 45.4152ms.
+INFO  2025-08-07 11:54:19,543 [3    ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.TaskPropertyTypeController.Create (PruebaQuercu.Web.Mvc) in 80.7274ms
+INFO  2025-08-07 11:54:19,546 [3    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyTypeController.Create (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:54:19,549 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/TaskPropertyType/Create - 200 - text/html;+charset=utf-8 110.8959ms
+DEBUG 2025-08-07 11:54:19,549 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: Nm-iMe3gS6hqKP82lMr0ww
+INFO  2025-08-07 11:54:19,552 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2025-08-07 11:54:19,555 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/signalr?id=vWfneiba4QszLhjw1B3q-g - 101 - - 1249.8388ms
+INFO  2025-08-07 11:54:19,577 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 11:54:19,606 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 11:54:19,636 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - - 0
+INFO  2025-08-07 11:54:19,639 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 11:54:19,669 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 11:54:19,674 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:54:19,701 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:54:19,753 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 37.5421ms
+INFO  2025-08-07 11:54:19,819 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 11:54:19,851 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 11:54:19,876 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:54:19,909 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 239.3947ms
+INFO  2025-08-07 11:54:19,913 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2025-08-07 11:54:19,951 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:54:19,977 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - 200 316 application/json 344.8775ms
+INFO  2025-08-07 11:54:19,981 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 126.3296ms
+INFO  2025-08-07 11:54:20,019 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:54:20,025 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/signalr?id=NsRkOEtiPF_QD415s0jBbA - - -
+INFO  2025-08-07 11:54:20,054 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 451.9116ms
+WARN  2025-08-07 11:54:20,057 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:20,058 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:54:20,085 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+WARN  2025-08-07 11:54:20,085 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:20,085 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+DEBUG 2025-08-07 11:54:20,092 [39   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"oQhqMgjm_-gW5L7kSoxZQA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2025-08-07T11:54:20.0922106-06:00","Properties":{}}
+DEBUG 2025-08-07 11:54:20,093 [39   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: oQhqMgjm_-gW5L7kSoxZQA
+INFO  2025-08-07 11:54:20,100 [23   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2025-08-07 11:54:20,107 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 281.1838ms
+INFO  2025-08-07 11:54:20,111 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:54:20,115 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 24826 application/x-javascript;+charset=utf-8 533.5329ms
+INFO  2025-08-07 11:54:22,383 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/TaskPropertyType/Create - - -
+INFO  2025-08-07 11:54:22,392 [3    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyTypeController.Create (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:54:22,396 [3    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Create", controller = "TaskPropertyType", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Create() on controller PruebaQuercu.Web.Controllers.TaskPropertyTypeController (PruebaQuercu.Web.Mvc).
+WARN  2025-08-07 11:54:22,408 [3    ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 11:54:22,417 [23   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Create.
+WARN  2025-08-07 11:54:22,417 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskPropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:22,418 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Type property' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:22,418 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Description' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:22,418 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Guardar' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:22,432 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:22,432 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:22,432 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:22,432 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:54:22,444 [25   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Create executed in 28.4076ms.
+INFO  2025-08-07 11:54:22,447 [25   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.TaskPropertyTypeController.Create (PruebaQuercu.Web.Mvc) in 48.0199ms
+INFO  2025-08-07 11:54:22,450 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyTypeController.Create (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:54:22,478 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/TaskPropertyType/Create - 200 - text/html;+charset=utf-8 71.3258ms
+DEBUG 2025-08-07 11:54:22,478 [23   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: oQhqMgjm_-gW5L7kSoxZQA
+INFO  2025-08-07 11:54:22,505 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2025-08-07 11:54:22,509 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - - 0
+INFO  2025-08-07 11:54:22,545 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 11:54:22,569 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 11:54:22,603 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/signalr?id=NsRkOEtiPF_QD415s0jBbA - 101 - - 2489.6075ms
+INFO  2025-08-07 11:54:22,633 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 11:54:22,661 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 11:54:22,685 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 93.1018ms
+INFO  2025-08-07 11:54:22,690 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:54:22,726 [3    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:54:22,752 [3    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:54:22,786 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 11:54:22,791 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:54:22,796 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - 200 316 application/json 281.2508ms
+INFO  2025-08-07 11:54:22,825 [25   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 11:54:22,859 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/signalr?id=HYPGIkMntNFZ2L5WTVVbuA - - -
+INFO  2025-08-07 11:54:22,886 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 289.3268ms
+INFO  2025-08-07 11:54:22,892 [25   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2025-08-07 11:54:22,900 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+WARN  2025-08-07 11:54:22,903 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:22,903 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:22,903 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:22,903 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:54:22,935 [25   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 84.7842ms
+INFO  2025-08-07 11:54:22,968 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+DEBUG 2025-08-07 11:54:22,969 [3    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"-8-KW03ctbx90QiWQQs-zA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2025-08-07T11:54:22.935813-06:00","Properties":{}}
+INFO  2025-08-07 11:54:23,001 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2025-08-07 11:54:23,026 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 496.8392ms
+DEBUG 2025-08-07 11:54:23,027 [3    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: -8-KW03ctbx90QiWQQs-zA
+INFO  2025-08-07 11:54:23,030 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 241.4939ms
+INFO  2025-08-07 11:54:23,034 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:54:23,038 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 24826 application/x-javascript;+charset=utf-8 529.8409ms
+INFO  2025-08-07 11:54:25,563 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/TaskProperty/Index - - -
+INFO  2025-08-07 11:54:25,579 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:54:25,585 [25   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "TaskProperty", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller PruebaQuercu.Web.Controllers.TaskPropertyController (PruebaQuercu.Web.Mvc).
+INFO  2025-08-07 11:54:25,588 [25   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar el logger.
+ERROR 2025-08-07 11:54:25,588 [25   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:54:25,588 [25   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:54:25,588 [25   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+WARN  2025-08-07 11:54:25,627 [25   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 11:54:38,621 [25   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2025-08-07 11:54:38,639 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskProperty' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:38,674 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Properties' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:38,914 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:38,914 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:38,915 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:38,915 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:54:38,977 [28   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 13338.6499ms.
+INFO  2025-08-07 11:54:38,983 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc) in 13392.1585ms
+INFO  2025-08-07 11:54:38,992 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+DEBUG 2025-08-07 11:54:38,992 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: -8-KW03ctbx90QiWQQs-zA
+INFO  2025-08-07 11:54:39,002 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2025-08-07 11:54:39,009 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/signalr?id=HYPGIkMntNFZ2L5WTVVbuA - 101 - - 16178.4521ms
+INFO  2025-08-07 11:54:39,016 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/TaskProperty/Index - 200 - text/html;+charset=utf-8 13451.2156ms
+INFO  2025-08-07 11:54:39,069 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 11:54:39,101 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 11:54:39,133 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 11:54:39,138 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 11:54:39,180 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 6.2269ms
+INFO  2025-08-07 11:54:39,185 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - - 0
+INFO  2025-08-07 11:54:39,216 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:54:39,245 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:54:39,252 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:54:39,277 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:54:39,284 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - 200 316 application/json 97.5379ms
+INFO  2025-08-07 11:54:39,310 [39   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 11:54:39,316 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 210.0373ms
+INFO  2025-08-07 11:54:39,351 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/signalr?id=2CLMjRRRtCwxWqnoBYorxg - - -
+INFO  2025-08-07 11:54:39,386 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 11:54:39,418 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2025-08-07 11:54:39,449 [28   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+DEBUG 2025-08-07 11:54:39,451 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"8etEU82j6i8NANSIgiptZA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2025-08-07T11:54:39.4506271-06:00","Properties":{}}
+INFO  2025-08-07 11:54:39,482 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 65.3046ms
+INFO  2025-08-07 11:54:39,514 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+WARN  2025-08-07 11:54:39,515 [39   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+DEBUG 2025-08-07 11:54:39,515 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 8etEU82j6i8NANSIgiptZA
+WARN  2025-08-07 11:54:39,515 [39   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:39,550 [39   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:54:39,550 [39   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:54:39,551 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 474.6945ms
+INFO  2025-08-07 11:54:39,572 [39   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2025-08-07 11:54:39,584 [39   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 262.2404ms
+INFO  2025-08-07 11:54:39,593 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:54:39,605 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 24826 application/x-javascript;+charset=utf-8 553.6741ms
+INFO  2025-08-07 11:55:04,117 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/TaskProperty/Index - - -
+INFO  2025-08-07 11:55:04,133 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:55:04,138 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "TaskProperty", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller PruebaQuercu.Web.Controllers.TaskPropertyController (PruebaQuercu.Web.Mvc).
+INFO  2025-08-07 11:55:04,141 [28   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar el logger.
+ERROR 2025-08-07 11:55:04,141 [28   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:55:04,141 [28   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:55:04,141 [28   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+WARN  2025-08-07 11:55:04,175 [27   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 11:55:04,846 [28   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2025-08-07 11:55:04,855 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskProperty' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:55:04,863 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'Properties' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:55:04,900 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:55:04,900 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:55:04,900 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:55:04,900 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:55:04,925 [28   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 735.8458ms.
+INFO  2025-08-07 11:55:04,928 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc) in 785.9572ms
+INFO  2025-08-07 11:55:04,930 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+DEBUG 2025-08-07 11:55:04,931 [39   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 8etEU82j6i8NANSIgiptZA
+INFO  2025-08-07 11:55:04,934 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2025-08-07 11:55:04,967 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/signalr?id=2CLMjRRRtCwxWqnoBYorxg - 101 - - 25617.1255ms
+INFO  2025-08-07 11:55:04,992 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/TaskProperty/Index - 200 - text/html;+charset=utf-8 855.7831ms
+INFO  2025-08-07 11:55:05,080 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 11:55:05,113 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - - 0
+INFO  2025-08-07 11:55:05,117 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 11:55:05,122 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 11:55:05,126 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 11:55:05,159 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 75.4875ms
+INFO  2025-08-07 11:55:05,166 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:55:05,170 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:55:05,192 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:55:05,197 [25   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 11:55:05,232 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:55:05,262 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - 200 316 application/json 144.5274ms
+INFO  2025-08-07 11:55:05,267 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/signalr?id=n8dniO7bB-ArbKlJ98F35g - - -
+INFO  2025-08-07 11:55:05,297 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 11:55:05,328 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 244.6134ms
+INFO  2025-08-07 11:55:05,362 [25   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2025-08-07 11:55:05,394 [25   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 163.0083ms
+INFO  2025-08-07 11:55:05,398 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:55:05,427 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 318.2644ms
+INFO  2025-08-07 11:55:05,451 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+WARN  2025-08-07 11:55:05,455 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:55:05,455 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:55:05,455 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:55:05,456 [28   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+DEBUG 2025-08-07 11:55:05,457 [27   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"yyEWztCXXU2x8OngQvjwJA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2025-08-07T11:55:05.4562487-06:00","Properties":{}}
+DEBUG 2025-08-07 11:55:05,457 [27   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: yyEWztCXXU2x8OngQvjwJA
+INFO  2025-08-07 11:55:05,465 [28   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2025-08-07 11:55:05,469 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 169.5479ms
+INFO  2025-08-07 11:55:05,473 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:55:05,476 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 24826 application/x-javascript;+charset=utf-8 421.2870ms
+INFO  2025-08-07 11:55:05,657 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/img/favicon.ico - - -
+INFO  2025-08-07 11:55:05,666 [28   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2025-08-07 11:55:05,671 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/img/favicon.ico - 200 1150 image/x-icon 15.1024ms
+INFO  2025-08-07 11:55:28,546 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/TaskProperty/Index - - -
+INFO  2025-08-07 11:55:28,552 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:55:28,555 [25   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "TaskProperty", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller PruebaQuercu.Web.Controllers.TaskPropertyController (PruebaQuercu.Web.Mvc).
+INFO  2025-08-07 11:55:28,556 [25   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar el logger.
+ERROR 2025-08-07 11:55:28,557 [25   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:55:28,557 [25   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:55:28,557 [25   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+WARN  2025-08-07 11:55:28,581 [25   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 11:55:28,902 [25   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2025-08-07 11:55:28,906 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskProperty' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:55:28,909 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Properties' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:55:28,933 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:55:28,933 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:55:28,933 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:55:28,933 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:55:28,942 [25   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 351.44ms.
+INFO  2025-08-07 11:55:28,945 [25   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc) in 387.2379ms
+INFO  2025-08-07 11:55:28,947 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:55:28,951 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/TaskProperty/Index - 200 - text/html;+charset=utf-8 404.2233ms
+DEBUG 2025-08-07 11:55:28,952 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: yyEWztCXXU2x8OngQvjwJA
+INFO  2025-08-07 11:55:28,955 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2025-08-07 11:55:28,958 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/signalr?id=n8dniO7bB-ArbKlJ98F35g - 101 - - 23722.3824ms
+INFO  2025-08-07 11:55:28,984 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 11:55:29,016 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 11:55:29,020 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 11:55:29,022 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - - 0
+INFO  2025-08-07 11:55:29,050 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 11:55:29,081 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 30.9163ms
+INFO  2025-08-07 11:55:29,115 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:55:29,145 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:55:29,201 [39   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 11:55:29,227 [25   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 11:55:29,231 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:55:29,236 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:55:29,267 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - 200 316 application/json 216.9239ms
+INFO  2025-08-07 11:55:29,269 [25   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2025-08-07 11:55:29,272 [25   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 39.038ms
+INFO  2025-08-07 11:55:29,300 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:55:29,302 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/signalr?id=zAvt7lR7zrD3Oh-r-HWrig - - -
+INFO  2025-08-07 11:55:29,305 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 283.2261ms
+INFO  2025-08-07 11:55:29,335 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 323.7669ms
+WARN  2025-08-07 11:55:29,336 [39   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:55:29,336 [39   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:55:29,338 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+WARN  2025-08-07 11:55:29,338 [39   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:55:29,338 [39   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:55:29,343 [39   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2025-08-07 11:55:29,346 [39   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 116.9785ms
+DEBUG 2025-08-07 11:55:29,366 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"o9CgNzsDBeZVVKFyX14G7Q","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2025-08-07T11:55:29.3440139-06:00","Properties":{}}
+INFO  2025-08-07 11:55:29,366 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+DEBUG 2025-08-07 11:55:29,366 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: o9CgNzsDBeZVVKFyX14G7Q
+INFO  2025-08-07 11:55:29,391 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 24826 application/x-javascript;+charset=utf-8 381.8950ms
+INFO  2025-08-07 11:55:29,494 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/img/favicon.ico - - -
+INFO  2025-08-07 11:55:29,498 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2025-08-07 11:55:29,502 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/img/favicon.ico - 200 1150 image/x-icon 10.7681ms
+INFO  2025-08-07 11:57:12,889 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/TaskProperty/Index - - -
+INFO  2025-08-07 11:57:12,899 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:57:12,904 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "TaskProperty", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller PruebaQuercu.Web.Controllers.TaskPropertyController (PruebaQuercu.Web.Mvc).
+INFO  2025-08-07 11:57:12,905 [23   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar el logger.
+ERROR 2025-08-07 11:57:12,905 [23   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:57:12,905 [23   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:57:12,905 [23   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+WARN  2025-08-07 11:57:12,929 [23   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 11:57:13,142 [23   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2025-08-07 11:57:13,147 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskProperty' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:13,151 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Properties' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:13,173 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:13,173 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:13,173 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:13,173 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:57:13,182 [23   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 241.933ms.
+INFO  2025-08-07 11:57:13,184 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc) in 278.8335ms
+INFO  2025-08-07 11:57:13,187 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:57:13,190 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/TaskProperty/Index - 200 - text/html;+charset=utf-8 301.4206ms
+DEBUG 2025-08-07 11:57:13,191 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: o9CgNzsDBeZVVKFyX14G7Q
+INFO  2025-08-07 11:57:13,194 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2025-08-07 11:57:13,196 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/signalr?id=zAvt7lR7zrD3Oh-r-HWrig - 101 - - 103894.0923ms
+INFO  2025-08-07 11:57:13,228 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 11:57:13,255 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 11:57:13,257 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 11:57:13,297 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 28.3702ms
+INFO  2025-08-07 11:57:13,329 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - - 0
+INFO  2025-08-07 11:57:13,368 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 11:57:13,415 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:57:13,438 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 11:57:13,462 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:57:13,494 [3    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:57:13,497 [3    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:57:13,500 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - 200 316 application/json 199.9954ms
+INFO  2025-08-07 11:57:13,503 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 11:57:13,535 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2025-08-07 11:57:13,567 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 206.2128ms
+INFO  2025-08-07 11:57:13,571 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/signalr?id=fL3cifQe2SaHl_OUb9ZM3g - - -
+INFO  2025-08-07 11:57:13,600 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 133.5758ms
+INFO  2025-08-07 11:57:13,605 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:57:13,649 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 382.0972ms
+INFO  2025-08-07 11:57:13,656 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+WARN  2025-08-07 11:57:13,657 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:13,657 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:13,657 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:13,657 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+DEBUG 2025-08-07 11:57:13,661 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"U4lmobxVMbK9MUhbXjoxbQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2025-08-07T11:57:13.6605914-06:00","Properties":{}}
+DEBUG 2025-08-07 11:57:13,661 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: U4lmobxVMbK9MUhbXjoxbQ
+INFO  2025-08-07 11:57:13,688 [26   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2025-08-07 11:57:13,690 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 185.3636ms
+INFO  2025-08-07 11:57:13,692 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:57:13,695 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 24826 application/x-javascript;+charset=utf-8 437.4902ms
+INFO  2025-08-07 11:57:13,810 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/img/favicon.ico - - -
+INFO  2025-08-07 11:57:13,815 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2025-08-07 11:57:13,818 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/img/favicon.ico - 200 1150 image/x-icon 8.5107ms
+INFO  2025-08-07 11:57:23,413 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/TaskProperty/Index - - -
+INFO  2025-08-07 11:57:23,423 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:57:23,426 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "TaskProperty", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller PruebaQuercu.Web.Controllers.TaskPropertyController (PruebaQuercu.Web.Mvc).
+INFO  2025-08-07 11:57:23,428 [12   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar el logger.
+ERROR 2025-08-07 11:57:23,428 [12   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:57:23,428 [12   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:57:23,428 [12   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+WARN  2025-08-07 11:57:23,452 [12   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 11:57:23,659 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2025-08-07 11:57:23,663 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskProperty' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:23,668 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Properties' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:23,689 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:23,689 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:23,689 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:23,689 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:57:23,698 [23   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 236.1972ms.
+INFO  2025-08-07 11:57:23,700 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc) in 271.7975ms
+INFO  2025-08-07 11:57:23,701 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:57:23,704 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/TaskProperty/Index - 200 - text/html;+charset=utf-8 290.4491ms
+DEBUG 2025-08-07 11:57:23,706 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: U4lmobxVMbK9MUhbXjoxbQ
+INFO  2025-08-07 11:57:23,708 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2025-08-07 11:57:23,709 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/signalr?id=fL3cifQe2SaHl_OUb9ZM3g - 101 - - 10172.3785ms
+INFO  2025-08-07 11:57:23,735 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 11:57:23,762 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 11:57:23,795 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - - 0
+INFO  2025-08-07 11:57:23,828 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 11:57:23,852 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 11:57:23,854 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 90.0016ms
+INFO  2025-08-07 11:57:23,857 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:57:23,858 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:57:23,892 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:57:23,925 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:57:23,927 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - 200 316 application/json 162.7316ms
+INFO  2025-08-07 11:57:23,929 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 11:57:23,957 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 11:57:23,959 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/signalr?id=lzvrwwwdgoc9qIozld7z1Q - - -
+INFO  2025-08-07 11:57:23,962 [26   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2025-08-07 11:57:23,964 [3    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2025-08-07 11:57:23,966 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 32.829ms
+INFO  2025-08-07 11:57:23,990 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:57:23,992 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 256.3134ms
+WARN  2025-08-07 11:57:23,993 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:23,993 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:23,993 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:57:23,993 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+DEBUG 2025-08-07 11:57:23,994 [3    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"UFIMp7_I2kckCRMX4wHRUw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2025-08-07T11:57:23.9941644-06:00","Properties":{}}
+DEBUG 2025-08-07 11:57:23,994 [3    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: UFIMp7_I2kckCRMX4wHRUw
+INFO  2025-08-07 11:57:24,029 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2025-08-07 11:57:24,034 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 73.6163ms
+INFO  2025-08-07 11:57:24,038 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:57:24,041 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 24826 application/x-javascript;+charset=utf-8 302.3467ms
+INFO  2025-08-07 11:57:24,047 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 282.4661ms
+INFO  2025-08-07 11:57:24,149 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/img/favicon.ico - - -
+INFO  2025-08-07 11:57:24,156 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2025-08-07 11:57:24,161 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/img/favicon.ico - 200 1150 image/x-icon 9.9662ms
+INFO  2025-08-07 11:59:03,813 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/TaskProperty/Index - - -
+INFO  2025-08-07 11:59:03,822 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:59:03,825 [27   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "TaskProperty", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller PruebaQuercu.Web.Controllers.TaskPropertyController (PruebaQuercu.Web.Mvc).
+INFO  2025-08-07 11:59:03,826 [27   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar el logger.
+ERROR 2025-08-07 11:59:03,826 [27   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:59:03,826 [27   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:59:03,826 [27   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+WARN  2025-08-07 11:59:03,851 [27   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 11:59:04,117 [26   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2025-08-07 11:59:04,121 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskProperty' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:04,125 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Properties' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:04,147 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:04,147 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:04,147 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:04,147 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:59:04,157 [27   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 291.1989ms.
+INFO  2025-08-07 11:59:04,159 [27   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc) in 332.1166ms
+INFO  2025-08-07 11:59:04,161 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:59:04,165 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/TaskProperty/Index - 200 - text/html;+charset=utf-8 351.5957ms
+DEBUG 2025-08-07 11:59:04,166 [27   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: UFIMp7_I2kckCRMX4wHRUw
+INFO  2025-08-07 11:59:04,174 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2025-08-07 11:59:04,176 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/signalr?id=lzvrwwwdgoc9qIozld7z1Q - 101 - - 100217.3933ms
+INFO  2025-08-07 11:59:04,195 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 11:59:04,198 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 11:59:04,233 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 11:59:04,265 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 11:59:04,290 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - - 0
+INFO  2025-08-07 11:59:04,293 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 92.6938ms
+INFO  2025-08-07 11:59:04,295 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:59:04,326 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:59:04,350 [27   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 11:59:04,352 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:59:04,389 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 11:59:04,410 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:59:04,438 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - 200 316 application/json 145.2032ms
+INFO  2025-08-07 11:59:04,459 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/signalr?id=9VVuZ_mE9iuqXlVbGy5z3A - - -
+INFO  2025-08-07 11:59:04,481 [27   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2025-08-07 11:59:04,482 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 282.3847ms
+INFO  2025-08-07 11:59:04,511 [27   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 132.4266ms
+INFO  2025-08-07 11:59:04,513 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+WARN  2025-08-07 11:59:04,515 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:04,515 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:04,515 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:04,523 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:59:04,544 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2025-08-07 11:59:04,545 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 330.4157ms
+INFO  2025-08-07 11:59:04,553 [26   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2025-08-07 11:59:04,580 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 164.6651ms
+INFO  2025-08-07 11:59:04,582 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:59:04,609 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 24826 application/x-javascript;+charset=utf-8 386.6202ms
+DEBUG 2025-08-07 11:59:04,609 [3    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"tE8yGPiirmu1mdcyWULljg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2025-08-07T11:59:04.5539724-06:00","Properties":{}}
+DEBUG 2025-08-07 11:59:04,610 [3    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: tE8yGPiirmu1mdcyWULljg
+INFO  2025-08-07 11:59:04,689 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/img/favicon.ico - - -
+INFO  2025-08-07 11:59:04,694 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2025-08-07 11:59:04,697 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/img/favicon.ico - 200 1150 image/x-icon 6.6528ms
+INFO  2025-08-07 11:59:28,177 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/TaskProperty/Index - - -
+INFO  2025-08-07 11:59:28,185 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:59:28,188 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "TaskProperty", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller PruebaQuercu.Web.Controllers.TaskPropertyController (PruebaQuercu.Web.Mvc).
+INFO  2025-08-07 11:59:28,189 [26   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar el logger.
+ERROR 2025-08-07 11:59:28,189 [26   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:59:28,189 [26   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 11:59:28,189 [26   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+WARN  2025-08-07 11:59:28,211 [26   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 11:59:28,220 [26   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2025-08-07 11:59:28,221 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskProperty' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:28,221 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Properties' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:28,234 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:28,234 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:28,234 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:28,234 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:59:28,240 [26   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 20.1232ms.
+INFO  2025-08-07 11:59:28,243 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc) in 52.0386ms
+INFO  2025-08-07 11:59:28,246 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 11:59:28,251 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/TaskProperty/Index - 200 - text/html;+charset=utf-8 72.5161ms
+DEBUG 2025-08-07 11:59:28,251 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: tE8yGPiirmu1mdcyWULljg
+INFO  2025-08-07 11:59:28,254 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2025-08-07 11:59:28,257 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/signalr?id=9VVuZ_mE9iuqXlVbGy5z3A - 101 - - 23816.3449ms
+INFO  2025-08-07 11:59:28,313 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 11:59:28,342 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 11:59:28,373 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 11:59:28,398 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 11:59:28,466 [3    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 88.3207ms
+INFO  2025-08-07 11:59:28,498 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - - 0
+INFO  2025-08-07 11:59:28,526 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 11:59:28,529 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:59:28,532 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 11:59:28,557 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 11:59:28,559 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:59:28,562 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2025-08-07 11:59:28,565 [26   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2025-08-07 11:59:28,596 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - 200 316 application/json 95.5601ms
+INFO  2025-08-07 11:59:28,599 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 222.6109ms
+INFO  2025-08-07 11:59:28,628 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 42.016ms
+INFO  2025-08-07 11:59:28,630 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/signalr?id=u6XAUN1HTEB1n17SqgIlJQ - - -
+INFO  2025-08-07 11:59:28,659 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 11:59:28,692 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 379.5468ms
+WARN  2025-08-07 11:59:28,695 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:28,695 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:28,695 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 11:59:28,695 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 11:59:28,697 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2025-08-07 11:59:28,705 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+DEBUG 2025-08-07 11:59:28,705 [27   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"736jE36pvi4vA6lNaTDQaA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2025-08-07T11:59:28.7057757-06:00","Properties":{}}
+INFO  2025-08-07 11:59:28,708 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 170.9355ms
+INFO  2025-08-07 11:59:28,710 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+DEBUG 2025-08-07 11:59:28,711 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 736jE36pvi4vA6lNaTDQaA
+INFO  2025-08-07 11:59:28,714 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 24826 application/x-javascript;+charset=utf-8 430.5833ms
+INFO  2025-08-07 11:59:28,856 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/img/favicon.ico - - -
+INFO  2025-08-07 11:59:28,860 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2025-08-07 11:59:28,870 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/img/favicon.ico - 200 1150 image/x-icon 5.9922ms
+INFO  2025-08-07 12:00:20,569 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/TaskProperty/Index - - -
+INFO  2025-08-07 12:00:20,575 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 12:00:20,579 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "TaskProperty", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller PruebaQuercu.Web.Controllers.TaskPropertyController (PruebaQuercu.Web.Mvc).
+INFO  2025-08-07 12:00:20,581 [13   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar el logger.
+ERROR 2025-08-07 12:00:20,581 [13   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 12:00:20,581 [13   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 12:00:20,581 [13   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+WARN  2025-08-07 12:00:20,621 [13   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 12:00:20,640 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2025-08-07 12:00:20,640 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskProperty' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:00:20,640 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Properties' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:00:20,659 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:00:20,659 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:00:20,659 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:00:20,659 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 12:00:20,666 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 27.2213ms.
+INFO  2025-08-07 12:00:20,698 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc) in 86.4033ms
+INFO  2025-08-07 12:00:20,730 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+DEBUG 2025-08-07 12:00:20,731 [41   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 736jE36pvi4vA6lNaTDQaA
+INFO  2025-08-07 12:00:20,766 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/TaskProperty/Index - 200 - text/html;+charset=utf-8 165.4335ms
+INFO  2025-08-07 12:00:20,793 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - - 0
+INFO  2025-08-07 12:00:20,797 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2025-08-07 12:00:20,830 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 12:00:20,856 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 12:00:20,911 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 12:00:20,886 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/signalr?id=u6XAUN1HTEB1n17SqgIlJQ - 101 - - 52202.6461ms
+INFO  2025-08-07 12:00:20,945 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 12:00:20,948 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 12:00:20,953 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 12:00:20,982 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2025-08-07 12:00:21,012 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2025-08-07 12:00:21,014 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 12:00:21,039 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 68.9236ms
+INFO  2025-08-07 12:00:21,067 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - 200 316 application/json 269.7990ms
+INFO  2025-08-07 12:00:21,088 [40   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 12:00:21,090 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/signalr?id=DumALc1DsUoopSHk4WjfTA - - -
+INFO  2025-08-07 12:00:21,115 [40   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2025-08-07 12:00:21,138 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 321.1903ms
+INFO  2025-08-07 12:00:21,174 [40   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 48.3257ms
+INFO  2025-08-07 12:00:21,179 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 12:00:21,205 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 348.8723ms
+INFO  2025-08-07 12:00:21,208 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+WARN  2025-08-07 12:00:21,210 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:00:21,210 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:00:21,210 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:00:21,210 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+DEBUG 2025-08-07 12:00:21,212 [40   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"do26Cr8LY325pe4vPFIdrA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2025-08-07T12:00:21.2120809-06:00","Properties":{}}
+DEBUG 2025-08-07 12:00:21,212 [40   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: do26Cr8LY325pe4vPFIdrA
+INFO  2025-08-07 12:00:21,216 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2025-08-07 12:00:21,220 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 201.2149ms
+INFO  2025-08-07 12:00:21,223 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 12:00:21,226 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 24826 application/x-javascript;+charset=utf-8 337.7480ms
+INFO  2025-08-07 12:00:21,370 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/img/favicon.ico - - -
+INFO  2025-08-07 12:00:21,380 [29   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2025-08-07 12:00:21,385 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/img/favicon.ico - 200 1150 image/x-icon 21.3577ms
+INFO  2025-08-07 12:00:39,911 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/.well-known/appspecific/com.chrome.devtools.json - - -
+INFO  2025-08-07 12:00:39,939 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/.well-known/appspecific/com.chrome.devtools.json - 404 - - 28.2244ms
+INFO  2025-08-07 12:00:39,945 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44312/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+INFO  2025-08-07 12:00:40,450 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/push.js.map - - -
+INFO  2025-08-07 12:00:40,456 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/push.js.map - 404 - - 6.0955ms
+INFO  2025-08-07 12:00:40,458 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44312/view-resources/Views/_Bundles/push.js.map, Response status code: 404
+INFO  2025-08-07 12:02:58,312 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/TaskProperty/Index - - -
+INFO  2025-08-07 12:02:58,365 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 12:02:58,370 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "TaskProperty", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller PruebaQuercu.Web.Controllers.TaskPropertyController (PruebaQuercu.Web.Mvc).
+INFO  2025-08-07 12:02:58,375 [13   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar el logger.
+ERROR 2025-08-07 12:02:58,376 [13   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 12:02:58,376 [13   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 12:02:58,376 [13   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+WARN  2025-08-07 12:02:58,425 [13   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 12:02:59,431 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2025-08-07 12:02:59,459 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskProperty' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:02:59,473 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Properties' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:02:59,503 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:02:59,503 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:02:59,503 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:02:59,503 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 12:02:59,520 [13   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1069.0745ms.
+INFO  2025-08-07 12:02:59,523 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc) in 1150.1636ms
+INFO  2025-08-07 12:02:59,524 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 12:02:59,529 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/TaskProperty/Index - 200 - text/html;+charset=utf-8 1218.0898ms
+DEBUG 2025-08-07 12:02:59,533 [29   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: do26Cr8LY325pe4vPFIdrA
+INFO  2025-08-07 12:02:59,537 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2025-08-07 12:02:59,540 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/signalr?id=DumALc1DsUoopSHk4WjfTA - 101 - - 158472.1272ms
+INFO  2025-08-07 12:02:59,572 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/.well-known/appspecific/com.chrome.devtools.json - - -
+INFO  2025-08-07 12:02:59,577 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/.well-known/appspecific/com.chrome.devtools.json - 404 - - 4.2572ms
+INFO  2025-08-07 12:02:59,579 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44312/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+INFO  2025-08-07 12:02:59,582 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 12:02:59,608 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 12:02:59,643 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 12:02:59,645 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 12:02:59,673 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 12:02:59,698 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 12:02:59,700 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 12:02:59,740 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 31.0884ms
+INFO  2025-08-07 12:02:59,773 [29   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 12:02:59,802 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2025-08-07 12:02:59,805 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 104.4823ms
+INFO  2025-08-07 12:02:59,806 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 12:02:59,808 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 227.3434ms
+INFO  2025-08-07 12:02:59,812 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 167.2401ms
+WARN  2025-08-07 12:02:59,812 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:02:59,812 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:02:59,812 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:02:59,812 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 12:02:59,816 [29   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2025-08-07 12:02:59,818 [29   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 43.2342ms
+INFO  2025-08-07 12:02:59,820 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 12:02:59,822 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 24826 application/x-javascript;+charset=utf-8 237.0943ms
+INFO  2025-08-07 12:02:59,950 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - - 0
+INFO  2025-08-07 12:02:59,952 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/push.js.map - - -
+INFO  2025-08-07 12:02:59,955 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2025-08-07 12:02:59,958 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2025-08-07 12:02:59,962 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/push.js.map - 404 - - 5.0632ms
+INFO  2025-08-07 12:02:59,967 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44312/view-resources/Views/_Bundles/push.js.map, Response status code: 404
+INFO  2025-08-07 12:02:59,996 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - 200 316 application/json 13.1668ms
+INFO  2025-08-07 12:03:00,018 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/signalr?id=NRyV1_0-BpofLW-cAqG9LA - - -
+INFO  2025-08-07 12:03:00,023 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2025-08-07 12:03:00,580 [29   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"NMQkvb0_QuRTINTanNCROQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2025-08-07T12:03:00.5780882-06:00","Properties":{}}
+DEBUG 2025-08-07 12:03:00,587 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: NMQkvb0_QuRTINTanNCROQ
+INFO  2025-08-07 12:03:00,644 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/img/favicon.ico - - -
+INFO  2025-08-07 12:03:00,655 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2025-08-07 12:03:00,663 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/img/favicon.ico - 200 1150 image/x-icon 16.0344ms
+INFO  2025-08-07 12:07:04,089 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/TaskProperty/Index - - -
+INFO  2025-08-07 12:07:04,189 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 12:07:04,198 [43   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "TaskProperty", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller PruebaQuercu.Web.Controllers.TaskPropertyController (PruebaQuercu.Web.Mvc).
+INFO  2025-08-07 12:07:04,215 [43   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar el logger.
+ERROR 2025-08-07 12:07:04,215 [43   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 12:07:04,215 [43   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+ERROR 2025-08-07 12:07:04,215 [43   ] baQuercu.Property.TaskPropertyAppService - Esto es un mensaje de prueba para verificar errores en logger.
+WARN  2025-08-07 12:07:04,302 [40   ] EntityFrameworkCore.Database.Transaction - Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+INFO  2025-08-07 12:07:06,120 [40   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2025-08-07 12:07:06,173 [40   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskProperty' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:07:06,193 [40   ] naries.DictionaryBasedLocalizationSource - Can not find 'Properties' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:07:06,334 [40   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:07:06,335 [40   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:07:06,335 [40   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:07:06,335 [40   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 12:07:06,404 [40   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 2043.2992ms.
+INFO  2025-08-07 12:07:06,409 [40   ] c.Infrastructure.ControllerActionInvoker - Executed action PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc) in 2206.4953ms
+INFO  2025-08-07 12:07:06,413 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'PruebaQuercu.Web.Controllers.TaskPropertyController.Index (PruebaQuercu.Web.Mvc)'
+INFO  2025-08-07 12:07:06,421 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/TaskProperty/Index - 200 - text/html;+charset=utf-8 2340.4705ms
+DEBUG 2025-08-07 12:07:06,451 [40   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: NMQkvb0_QuRTINTanNCROQ
+INFO  2025-08-07 12:07:06,459 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2025-08-07 12:07:06,465 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/signalr?id=NRyV1_0-BpofLW-cAqG9LA - 101 - - 246444.0402ms
+INFO  2025-08-07 12:07:06,512 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/shared-layout.min.css?v=2JgH3l8w67_GazpOLzhgPLwDTROeYI-Dm8MfkKH0Vw0 - - -
+INFO  2025-08-07 12:07:06,539 [47   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/img/avatar.png - - -
+INFO  2025-08-07 12:07:06,567 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/img/logo.png - - -
+INFO  2025-08-07 12:07:06,590 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/shared-layout.min.js?v=Y5Hge9uOppMA8bR84doPJ7Oz9PDLLb61_H1Tn-sDAtU - - -
+INFO  2025-08-07 12:07:06,618 [43   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - - -
+INFO  2025-08-07 12:07:06,623 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2025-08-07 12:07:06,688 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript;+charset=utf-8 39.7847ms
+INFO  2025-08-07 12:07:06,713 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - - -
+INFO  2025-08-07 12:07:06,757 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 12:07:06,799 [42   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 12:07:06,823 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2025-08-07 12:07:06,828 [45   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/logo.png'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\img\logo.png'
+INFO  2025-08-07 12:07:06,834 [46   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/avatar.png'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\img\avatar.png'
+INFO  2025-08-07 12:07:06,866 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/img/logo.png - 200 4327 image/png 295.2240ms
+INFO  2025-08-07 12:07:06,872 [43   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2025-08-07 12:07:06,881 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/img/avatar.png - 200 7587 image/png 321.2138ms
+INFO  2025-08-07 12:07:06,939 [42   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2025-08-07 12:07:06,965 [43   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2025-08-07 12:07:06,970 [43   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 94.0335ms
+INFO  2025-08-07 12:07:06,974 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2025-08-07 12:07:07,003 [43   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpServiceProxies/GetAll?v=638901639508799864 - 200 14917 application/x-javascript 406.8932ms
+INFO  2025-08-07 12:07:07,046 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 260.5824ms
+WARN  2025-08-07 12:07:07,057 [42   ] naries.DictionaryBasedLocalizationSource - Can not find 'Owners' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:07:07,057 [42   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:07:07,058 [42   ] naries.DictionaryBasedLocalizationSource - Can not find 'PropertyType' in localization source 'PruebaQuercu'!
+WARN  2025-08-07 12:07:07,060 [42   ] naries.DictionaryBasedLocalizationSource - Can not find 'Property' in localization source 'PruebaQuercu'!
+INFO  2025-08-07 12:07:07,112 [42   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2025-08-07 12:07:07,141 [42   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 176.547ms
+INFO  2025-08-07 12:07:07,146 [42   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2025-08-07 12:07:07,173 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/AbpScripts/GetScripts?v=638901639508799864 - 200 24826 application/x-javascript;+charset=utf-8 458.6965ms
+INFO  2025-08-07 12:07:07,207 [42   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/_Bundles/shared-layout.min.js'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\view-resources\Views\_Bundles\shared-layout.min.js'
+INFO  2025-08-07 12:07:07,217 [49   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/_Bundles/shared-layout.min.css'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\view-resources\Views\_Bundles\shared-layout.min.css'
+INFO  2025-08-07 12:07:07,271 [49   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/shared-layout.min.css?v=2JgH3l8w67_GazpOLzhgPLwDTROeYI-Dm8MfkKH0Vw0 - 200 1698125 text/css 758.9319ms
+INFO  2025-08-07 12:07:07,289 [49   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/view-resources/Views/_Bundles/shared-layout.min.js?v=Y5Hge9uOppMA8bR84doPJ7Oz9PDLLb61_H1Tn-sDAtU - 200 1801982 text/javascript 716.4926ms
+INFO  2025-08-07 12:07:07,328 [49   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/dist/img/famfamfam-flags.png - - -
+INFO  2025-08-07 12:07:07,363 [50   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/dist/img/famfamfam-flags.png'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\dist\img\famfamfam-flags.png'
+INFO  2025-08-07 12:07:07,366 [49   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/dist/fonts/fa-solid-900.woff2 - - -
+INFO  2025-08-07 12:07:07,369 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/dist/img/famfamfam-flags.png - 200 78508 image/png 41.7689ms
+INFO  2025-08-07 12:07:07,376 [50   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/dist/fonts/fa-solid-900.woff2'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\dist\fonts\fa-solid-900.woff2'
+INFO  2025-08-07 12:07:07,379 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/dist/fonts/fa-solid-900.woff2 - 200 78196 font/woff2 14.3596ms
+INFO  2025-08-07 12:07:07,384 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - - 0
+INFO  2025-08-07 12:07:07,398 [50   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2025-08-07 12:07:07,403 [50   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2025-08-07 12:07:07,406 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 POST https://localhost:44312/signalr/negotiate?negotiateVersion=1 - 200 316 application/json 22.4331ms
+INFO  2025-08-07 12:07:07,567 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/signalr?id=O_o30JTYhuEA5ovZYP67Mw - - -
+INFO  2025-08-07 12:07:07,584 [50   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2025-08-07 12:07:07,592 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/img/favicon.ico - - -
+INFO  2025-08-07 12:07:07,597 [50   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\brend\Documents\Universidad\UCR2025\IICiclo\Quercu\Practicas\10.2.0\aspnet-core\src\PruebaQuercu.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2025-08-07 12:07:07,628 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/img/favicon.ico - 200 1150 image/x-icon 8.0137ms
+DEBUG 2025-08-07 12:07:07,632 [40   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"jE-JaRcmiiYcmHDG0W0lIw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2025-08-07T12:07:07.5974395-06:00","Properties":{}}
+DEBUG 2025-08-07 12:07:07,634 [40   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: jE-JaRcmiiYcmHDG0W0lIw

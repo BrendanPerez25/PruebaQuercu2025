@@ -1,6 +1,7 @@
 {
   "name": "abptemplate",
   "scripts": {
+    "webpack-build": "webpack",
     "create-bundles": "yarn && gulp buildDev",
     "build": "yarn && gulp build",
     "prettier": "npx prettier --write .",
@@ -53,6 +54,12 @@
     "prettier": "^3.5.2",
     "rimraf": "^6.0.1",
     "terser": "5.39.0",
+    "webpack": "^5.101.0",
+    "webpack-cli": "^6.0.1",
     "yarn": "^1.22.22"
-  }
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "description": ""
 }

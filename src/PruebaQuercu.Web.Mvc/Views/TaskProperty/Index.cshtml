@@ -40,7 +40,7 @@
         });
     </script>
 
-    <script>
+   @*  <script>
         var viewModel = kendo.observable({
             isVisible: true,
             properties: new kendo.data.DataSource({
@@ -61,6 +61,42 @@
                 data: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.Properties)) //cambia los datos del dto a tipo json 
             })
         });
+
+        kendo.bind($("#example"), viewModel);
+    </script> *@
+
+    <script>
+        var viewModel = kendo.observable({
+            isVisible: true,
+            properties: new kendo.data.DataSource({
+                schema: {
+                    model: {
+                        id: "Id",
+                        fields: {
+                            Number: { type: "string" },
+                            Address: { type: "string" },
+                            Area: { type: "number" },
+                            ConstructionArea: { type: "number" },
+                            OwnerId: { type: "number" } // ahora usamos el ID real
+                        }
+                    }
+                },
+                batch: true,
+                data: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.Properties))
+            }),
+            owners: new kendo.data.DataSource({
+                data: @Html.Raw(System.Text.Json.JsonSerializer.Serialize(ViewBag.Owners))
+            })
+        });
+
+        // Editor para propietario
+        function ownerDropDownEditor(container, options) {
+            $('<input required data-text-field="Text" data-value-field="Value" data-bind="value:' + options.field + '"/>')
+                .appendTo(container)
+                .kendoDropDownList({
+                    dataSource: viewModel.owners
+                });
+        }
 
         kendo.bind($("#example"), viewModel);
     </script>
@@ -106,8 +142,30 @@
                             <div id="example">
 
                                 <h4>Pruebas TaskProperty</h4>
-
                                 <div data-role="grid"
+                                     data-editable="true"
+                                     data-toolbar="['create', 'save']"
+                                     data-columns="[
+                                     { 'field' : 'Number' , 'title' : 'Número' },
+                                     { 'field' : 'Address' , 'title' : 'Dirección' },
+                                     { 'field' : 'Area' , 'title' : 'Área' },
+                                     { 'field' : 'ConstructionArea' , 'title' : 'Área Construcción' },
+                                     {
+                                     'field' : 'OwnerName' ,
+                                     'title' : 'Propietario' ,
+                                     'editor' : ownerDropDownEditor,
+                                     'template' : function(dataItem) {
+                                     var match=viewModel.owners.data().find(x =>
+                                    x.Value == dataItem.OwnerId);
+                                    return match ? match.Text : '';
+                                    }
+                                    }
+                                    ]"
+                                    data-bind="source: properties,
+                                    visible: isVisible"
+                                    style="height: 400px;">
+                                </div>
+                              @*   <div data-role="grid"
                                      data-editable="true"
                                      data-toolbar="['create', 'save']"
                                      data-columns="[
@@ -122,7 +180,7 @@
                                         visible: isVisible,
                                         events: { save: onSave }"
                                      style="height: 400px;">
-                                </div>
+                                </div> *@
                             </div>
 
 
@@ -187,9 +245,6 @@
                     </div>
                 </div>
             </div>
-
-
-    <button id="kendoButton">Click me</button>
 
 
 
